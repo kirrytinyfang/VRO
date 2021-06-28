@@ -4,7 +4,7 @@
 <page id="20105" title="Weapons and Turrets" descr="Names and descriptions of weapons and turrets" voice="no">
 <!-- name = ARG L Beam Turret Mk1    basename=Beam Turret    shortname=Beam Mk1 -->
 <!-- arg L beam turr      <identification name="{20105,5084}" basename="{20105,5081}" shortname="{20105,5085}" makerrace="argon" description="{20105,5082}" unique="0" mk="1" /> -->
- <t id="5084">ARG L ヘビーランスタレット</t>
+ <t id="5084">ARG 大型 ヘビーランスタレット</t>
  <t id="5081">ヘビーランスタレット</t> 
  <t id="5085">ヘビーランス</t>
  <t id="5082">ヘビーランスは、惑星間共同体崩壊後にアルゴンとアルゴン連邦内に取り残された数少ないボロン人のエネルギー兵器共同研究の頂点です。射程とタレットの追尾速度の低さは、信じられないほどの射程、ピンポイントの精度と、どんな戦闘機でも一発でダウンさせることができる重いアルファダメージによって補われています。 </t>
@@ -384,7 +384,7 @@
 <t id="1050">\033#96ddb56e#SL\033X XEN 粒子砲</t>
 <t id="1051">粒子砲</t>
 <t id="1060">unused place holder</t> <!-- reminder for later use-->
-<t id="1061">unused place holder</t> <!-- reminder for later use-->
+<t id="1061">unused place holder</t> <!-- reminder for later use -->
 <t id="1070">XN101 ストライカー</t>
 <t id="1071">ARG 大型 巡航ミサイルタレット</t>
 <t id="1072">PAR 大型 巡航ミサイルタレット</t>
@@ -464,20 +464,19 @@
 <t id="11007">物質/反物質ランチャー</t>
 
 <t id="11008">\033#95e03b29#LM\033X 陽電子ビームアレイ</t>
-<t id="110081">TEL L Positron Beam Turret</t>
-<t id="110082">Positron Beam Turret</t>
+<t id="110081">TEL L 陽電子ビームアレイ</t>
+<t id="110082">陽電子ビームアレイ</t>
 
 <t id="11009">テラディ艦専用\n\n陽電子ビームアレイは、ステーションや大型の主力艦を遠距離から高精度で破壊するために特化して設計されたアサルト兵器である。また、中型艦との戦闘にも使用される。</t>
 
 <t id="11010">\033#95e03b29#LM\033X イオンプロジェクター</t>
-<t id="110101">ARG L Ion Projector Turret</t>
-<t id="110102">Ion Projector Turret</t>
+<t id="110101">ARG L イオンプロジェクター</t>
+<t id="110102">イオンプロジェクター</t>
 <t id="11011">アルゴン艦専用\n\nイオンプロジェクターは、アルゴン－ボロンの研究の遺産です。長距離のアンチシールドビームは、艦隊戦での光子パルスキャノンのような他のアルゴン兵器を支援し、最高の効率を実現する。</t>
 
 <t id="11012">\033#95e03b29#LM\033X トライビーム</t>
-<t id="110121">PAR L Tri Beam Turret</t>
-<t id="110122">Tri Beam Turret</t>
-
+<t id="110121">PAR L トライビーム</t>
+<t id="110122">トライビーム</t>
 <t id="11013">パラニド艦専用\n\nトライビームは、より軽快な中型艦、さらには小型艦クラスと恐るべき距離から攻撃するために、パラニドが開発した最新の主力艦のメインバッテリーです。</t>
 
 <t id="11014">TEL 中型 フレシェットタレット</t>
@@ -495,21 +494,24 @@
 
 <t id="10211">Integrated Obliterator Array</t>
 
+<t id="10212">多連装ミサイルランチャー</t>
+<t id="102121">多弾頭のスウォームミサイルを発射するように設計されたミサイルランチャー。</t>
+
 <!--SPLT T file-->
 
 <t id="12001">\033#97e19b23#SH\033X フェーズリピーターガン \(PRG\)</t>
 <t id="12002">フェーズリピーターガン</t>
-<t id="12003">フェーズリピーターガン</t>
+<t id="12003">PRG</t>
 <t id="12004">サイズ: 小型\n 武器クラス: 重量級\n \n一部の中型から大型の戦闘機に搭載される兵器。高エネルギープラズマ投射砲よりも軽量かつ高速で重戦闘機用に設計されており、また通常戦闘機や迎撃機の重火器としても機能する。フェイズドリピーターガンは３発の連続爆破を引き起こし、高速で命中しにくい敵戦闘機を撃墜するのに申し分のないものとなっている。 </t>
 
 <t id="12005">\033#96ddb56e#SL\033X イオンガトリング砲 \(IGC\)</t>
 <t id="12006">イオンガトリング砲</t>
-<t id="12007">イオンガトリング砲</t>
+<t id="12007">IGC</t>
 <t id="12008">サイズ: 小型\n 武器クラス: 軽量級\n\nアルゴンのイオンテクノロジーと中性子ガトリングを組み合わせることによって、小型機で搭載可能なアンチシールド兵器をスプリットに提供したが、しかしイオンテクノロジーへの深い理解が無かったため、この兵器はアルゴン/ボロンの同等品よりもその役割を果たすことができないでいる。</t>
 
 <t id="12009">\033#989db6ec#ML\033X イオンパルスジェネレーター \(IPG\)</t>
 <t id="12010">イオンパルスジェネレーター</t>
-<t id="12011">イオンパルスジェネレーター</t>
+<t id="12011">IPG</t>
 <t id="12012">サイズ: 中型\n 武器クラス: 軽量級\n\n通常、コルベットやフリゲート級の艦船に搭載されている兵器。シールドに対して有効であることに加えて、イオンパルスジェネレーターの発射体は最大射程に達すると強烈なイオンバーストを引き起こす。これは艦船のエンジンに影響を与え、しばしば速度低下を引き起こすことがある。 </t>
 
 <t id="12013">\033#96ddb56e#SL\033X 中性子ガトリング</t>
@@ -565,13 +567,108 @@
 <t id="12053">ヘビータウアクセラレーター</t>
 <t id="12054">サイズ: 中型\n 武器クラス: 軽量級\n\nコルベットに搭載されているヘビーショットガンのような兵器。</t>
 
-<t id="12055">SCA L Rapid Kinetic Turret</t>
-<t id="12056">SCA Rapid Kinetic Turret</t>
-<t id="12057">Rapid Kinetic Turret</t>
+<t id="12055">SCA L 速射衝撃砲</t>
+<t id="12056">SCA 速射衝撃砲</t>
+<t id="12057">速射衝撃砲</t>
 <t id="12058">Crudely assembled by pirate engeneers this short-ranged capital weapon is quite effective in dealing with almost any type of target.</t>
 
+<!-- TERRAN T-file -->
+
+<t id="15001">\033#96ddb56e#SL\033X パルスキャノン </t>
+<t id="15002">パルスキャノン</t>
+<t id="15003">パルスキャノン</t>
+<t id="15004">Size: SMALL\n Weapon Class: LIGHT\n\nBasic weapon of terran light fighters, pulse cannon provides good balance of fire rate, damage and range without overloading fighter systems. </t>
+
+<t id="15011">\033#97e19b23#SH\033X 軽電磁プラズマキャノン \(LEMPC\)</t>
+<t id="15012">軽電磁プラズマキャノン</t>
+<t id="15013">LEMPC</t>
+<t id="15014">Size: SMALL\n Weapon Class: HEAVY\n\nTERRAN SHIPS ONLY\nThe Earth Fleet's powerful and highly advanced Electro-Magnetic Plasma Cannon is mostly found on some medium to larger-sized fighter craft. It uses powerful EM field generators to propel concentrated plasma bolts at enemies and is effective in both damaging and disabling enemy ships, while also provides additional damage versus surface components .</t>
+
+<t id="15021">\033#96ddb56e#SL\033X 陽電子対空砲 </t>
+<t id="15022">陽電子対空砲</t>
+<t id="15023">陽電子対空砲</t>
+<t id="15024">Size: SMALL\n Weapon Class: LIGHT\n\nRapid-firing weapon with fast projectile that sacrifices engagement range for the ability to intercept small targets more easily. </t>
+
+<t id="15031">\033#97e19b23#SH\033X メソンストリーム</t>
+<t id="15032">メソンストリーム</t>
+<t id="15033">メソンストリーム</t>
+<t id="15034">Size: SMALL\n Weapon Class: HEAVY\n\nTERRAN SHIPS ONLY\nHighly advanced short-ranged weapon that can deal enourmouse damage to targets hull. The only drawback is that damage is dissipated by the shields.</t>
+
+<t id="15041">\033#989db6ec#ML\033X バーストパルスキャノン</t>
+<t id="15042">バーストパルスキャノン</t>
+<t id="15043">バーストパルスキャノン</t>
+<t id="15044">Size: MEDIUM\n Weapon Class: LIGHT\n\nBurst Pulse Cannon.</t>
+
+<t id="15051">\033#989db6ec#ML\033X 陽電子重対空砲</t>
+<t id="15052">陽電子重対空砲</t>
+<t id="15053">陽電子重対空砲</t>
+<t id="15054">Size: MEDIUM\n Weapon Class: LIGHT\n\nHeavy Postiron Barrager.</t>
+
+<t id="15061">\033#993d7bff#MH\033X メソンランス</t>
+<t id="15062">メソンランス</t>
+<t id="15063">メソンランス</t>
+<t id="15064">Size: MEDIUM\n Weapon Class: HEAVY\n\nTERRAN SHIPS ONLY\nMeson Lance. </t>
+
+<t id="15071">\033#993d7bff#MH\033X グラビトンキャノン</t>
+<t id="15072">グラビトンキャノン</t>
+<t id="15073">グラビトンキャノン</t>
+<t id="15074">Size: MEDIUM\n Weapon Class: HEAVY\n\nTERRAN SHIPS ONLY\nGraviton Cannon </t>
+
+<t id="15081">\033#95e03b29#LM\033X Barrage Battery</t>
+<t id="15082">Barrage Battery</t>
+<t id="15083">Barrage Battery</t>
+<t id="15084">Barrage Battery</t>
+
+
+<t id="15091">TER L 特異点放射器</t>
+<t id="15092">TER 特異点放射器</t>
+<t id="15093">特異点放射器</t>
+<t id="15094">\033#95e03b29#High-Power Turret\033X\TERRAN SHIPS ONLY\nMain long range anti-capital weapon of Terran Protectorate. The Point Singularity Projector essentially generates a tiny 'jump event' and using a tremendous amount of energy, accelerates it away. The singularity eventually destabilises, collapses and releases a tremendous amount of energy expanding rapidly outwards, causing massive damage to any nearby ships or stations.</t>
+
+<t id="15101">TER L スターバーストショックウェーブキャノン</t>
+<t id="15102">TER スターバーストショックウェーブキャノン</t>
+<t id="15103">スターバーストショックウェーブキャノン</t>
+<t id="15104">A deadly weapon found on heaviest of the ships. Commonly used by United Space Command capital ships, the Starburst Shockwave Cannon is an advanced, energy-based version of the rather basic flak weapons used by other races. A projectile is fired outwards and once it reaches its maximum range, it activates and sends powerful energy waves outwards, damaging any nearby ships. </t>
+
+<t id="15111">TER L 重電磁プラズマキャノン\(HEMPC\)</t>
+<t id="15112">TER HEMPC</t>
+<t id="15113">HEMPC</t>
+<t id="15114">Capital grade version of famous EMPC, considered to be a good all-rounder with mainly focus to fight enemy L sized ships. On impact it influences taget's systems, slowing the target down slightly.</t>
+
+<t id="15121">TER M 連装パルスタレット</t>
+<t id="15122">TER 連装パルスタレット</t>
+<t id="15123">連装パルスタレット</t>
+<t id="15124">General use turret designed to fight different types of foes/</t>
+
+<t id="15131">TER M 対空タレット</t>
+<t id="15132">TER 対空タレット</t>
+<t id="15133">対空タレット</t>
+<t id="15134">Terran alternative to commonwealth CIWS turret, though, due its high-tech nature it is more powerful, even if it has a bit slower peojectile. Designed for point defense and anti- fighter duty.</t>
+
+<t id="15141">TER M ライトメソンタレット</t>
+<t id="15142">TER ライトメソンタレット</t>
+<t id="15143">ライトメソンタレット</t>
+<t id="15144">In contrast to beam weapons of commonwealth factions, that mostly serve as point defene weapons, Light Meson turrets are short-ranged high damage dealers, capable to melt even through the thickest armor. Though it has the same weakness as other meson weapon, its efficiency drops on maximum range and is easily dissipated by shields. </t>
+
+<t id="15151">ミョルニル</t>
+<t id="15152">ミョルニル</t>
+<t id="15153">ミョルニル</t>
+<t id="15154">Main beam weapon of the Asgard battleship.</t> 
+
+<t id="15161">\033#95e03b29#LM\033X 加速重力子砲</t>
+<t id="15162">加速重力子砲</t>
+<t id="15163">加速重力子砲</t>
+<t id="15164">Simply taking medium Graviton Cannon and increasing its projcetile speed through the use if few in-line accelerators proven to increase weapon potention quite substantialy. Due to increased power use however it can now be equipped only by capital ships.</t>
+
+<t id="15171">TER L Rotory Pulse Turret</t>
+<t id="15172">TER Rotory Pulse Turret</t>
+<t id="15173">Rotory Pulse Turret</t>
+<t id="15174">Due to low efficiency of Starburst cannon versus corvettes and high cost of alternative weapons like HEMPC, Terran Protectorate scientists desing new weapon based on rapid-fire technology combining it with pulse cannon. The result is an all-purpose weapon that can deal with most S and M-sized targets.</t>
+
+<!-- Chiba carrier -->
+<t id="19111">After recent Xenon incursions Terran Protectorate command saw the need in fast mobile light carrier, as the need was quite urgent it was decided to re-use civilian Hokkaido chassis, while this allowed for new light carrier to be deployed in record time, it suffered from lack of survivability and firepower due to limitations of its chassis. </t>
+
 <!--ships-->
-<!-- UPDATE! -->
 <t id="1901">ケンタウルスは、オミクロン・ライラのアルゴンの宇宙船設計士によって開発された。コルベットや中型輸送船よりは大きいが、駆逐艦よりは小さい。タレットと強力な主武装を備えたフリゲート級の艦船であり、ケンタウルスはコルベットと主力艦の隔たりを埋める。 </t>
 <t id="1902">{20101,12301} {20111,1001}</t>
 <t id="19021">このバージョンのアルゴンの貨物船は、内部の貨物スペースを犠牲にして追加の装甲プレートと兵器システムで強化しました。</t>
@@ -589,107 +686,10 @@
 
 <t id="19081">Fondly referred to as the 'Centaur II' by its captains due to a close resemblance and planned replacement for that icoic ship, the Cyclops was developed as a response to increasing Xenon fighter swarm activity. Sporting excellent speed for its size and bristling with tightly grouped anti-fighter turret systems it is an effective anti-fighter escort for larger capital ships. It's speed also makes the Cyclops perfect for exploration and reconnaissance activities and it has therefore become the go-to vessel for Argon secret service operations.</t>
 
-<t id="1909">Hyperion</t>
+<t id="1909">ハイペリオン</t>
 <t id="19091">This vessel production started form locating of an old prototype floating in Paranid space after the gates shutdown that once was a personal yacht of the Pontifex Maximus Paranidia.  At its time this was an astounding ultimate design in Paranid innovation, after spending many years reverse engeneering it finally entered mass production, though still rarely seen due to costs of the hull. </t>
 
 <t id="1910">After Xenon missile destroyer classived as V started to invade Split territory it was apparent that Patriarchy military lacked long-range missile support and so Viper was developed. This ship boasts good mix of direct firepower and uses multi-tube launchers as main weapon for long-range engaegement. With time new missile type was developed specifically for Viper launcher system to combat lighter threats, including Xenon and Argon fighters. </t>
-
-<!-- TERRAN T-file -->
-
-<t id="15001">\033#96ddb56e#SL\033X Pulse Cannon </t>
-<t id="15002">Pulse Cannon</t>
-<t id="15003">Pulse Cannon</t>
-<t id="15004">Size: SMALL\n Weapon Class: LIGHT\n\nBasic weapon of terran light fighters, pulse cannon provides good balance of fire rate, damage and range without overloading fighter systems. </t>
-
-<t id="15011">\033#97e19b23#SH\033X Light Electro Magnetic Plasma Cannon \(LEMPC\)</t>
-<t id="15012">Light Electro Magnetic Plasma Cannon</t>
-<t id="15013">LEMPC</t>
-<t id="15014">Size: SMALL\n Weapon Class: HEAVY\n\nTERRAN SHIPS ONLY\nThe Earth Fleet's powerful and highly advanced Electro-Magnetic Plasma Cannon is mostly found on some medium to larger-sized fighter craft. It uses powerful EM field generators to propel concentrated plasma bolts at enemies and is effective in both damaging and disabling enemy ships, while also provides additional damage versus surface components .</t>
-
-<t id="15021">\033#96ddb56e#SL\033X Positron Barrage </t>
-<t id="15022">Positron Barrage</t>
-<t id="15023">Positron Barrage</t>
-<t id="15024">Size: SMALL\n Weapon Class: LIGHT\n\nRapid-firing weapon with fast projectile that sacrifices engagement range for the ability to intercept small targets more easily. </t>
-
-<t id="15031">\033#97e19b23#SH\033X Meson Streamer</t>
-<t id="15032">Meson Streamer</t>
-<t id="15033">Meson Streamer</t>
-<t id="15034">Size: SMALL\n Weapon Class: HEAVY\n\nTERRAN SHIPS ONLY\nHighly advanced short-ranged weapon that can deal enourmouse damage to targets hull. The only drawback is that damage is dissipated by the shields.</t>
-
-<t id="15041">\033#989db6ec#ML\033X Burst Pulse Cannon</t>
-<t id="15042">Burst Pulse Cannon</t>
-<t id="15043">Burst Pulse Cannon</t>
-<t id="15044">Size: MEDIUM\n Weapon Class: LIGHT\n\nBurst Pulse Cannon.</t>
-
-<t id="15051">\033#989db6ec#ML\033X Heavy Postiron Barrager</t>
-<t id="15052">Heavy Postiron Barrager</t>
-<t id="15053">H. Postiron Barrager</t>
-<t id="15054">Size: MEDIUM\n Weapon Class: LIGHT\n\nHeavy Postiron Barrager.</t>
-
-<t id="15061">\033#993d7bff#MH\033X Meson Lance</t>
-<t id="15062">Meson Lance</t>
-<t id="15063">Meson Lance</t>
-<t id="15064">Size: MEDIUM\n Weapon Class: HEAVY\n\nTERRAN SHIPS ONLY\nMeson Lance. </t>
-
-<t id="15071">\033#993d7bff#MH\033X Graviton Cannon</t>
-<t id="15072">Graviton Cannon</t>
-<t id="15073">Graviton Cannon</t>
-<t id="15074">Size: MEDIUM\n Weapon Class: HEAVY\n\nTERRAN SHIPS ONLY\nGraviton Cannon </t>
-
-<t id="15081">\033#95e03b29#LM\033X Barrage Battery</t>
-<t id="15082">Barrage Battery</t>
-<t id="15083">Barrage Battery</t>
-<t id="15084">Barrage Battery</t>
-
-
-<t id="15091">TER L Point Singularity Projector</t>
-<t id="15092">TER Point Singularity Projector</t>
-<t id="15093">Point Singularity Projector</t>
-<t id="15094">\033#95e03b29#High-Power Turret\033X\TERRAN SHIPS ONLY\nMain long range anti-capital weapon of Terran Protectorate. The Point Singularity Projector essentially generates a tiny 'jump event' and using a tremendous amount of energy, accelerates it away. The singularity eventually destabilises, collapses and releases a tremendous amount of energy expanding rapidly outwards, causing massive damage to any nearby ships or stations.</t>
-
-<t id="15101">TER L Starburst Shockwave Cannon</t>
-<t id="15102">TER Starburst Shockwave Cannon</t>
-<t id="15103">Starburst Shockwave Cannon</t>
-<t id="15104">A deadly weapon found on heaviest of the ships. Commonly used by United Space Command capital ships, the Starburst Shockwave Cannon is an advanced, energy-based version of the rather basic flak weapons used by other races. A projectile is fired outwards and once it reaches its maximum range, it activates and sends powerful energy waves outwards, damaging any nearby ships. </t>
-
-<t id="15111">TER L Heavy Electro Magnetic Plasma Cannon</t>
-<t id="15112">TER HEMPC</t>
-<t id="15113">HEMPC</t>
-<t id="15114">Capital grade version of famous EMPC, considered to be a good all-rounder with mainly focus to fight enemy L sized ships. On impact it influences taget's systems, slowing the target down slightly.</t>
-
-<t id="15121">TER M Dual Pulse Turret</t>
-<t id="15122">TER Dual Pulse Turret</t>
-<t id="15123">Dual Pulse Turret</t>
-<t id="15124">General use turret designed to fight different types of foes/</t>
-
-<t id="15131">TER M Barage Turret</t>
-<t id="15132">TER Barage Turret</t>
-<t id="15133">Barage Turret</t>
-<t id="15134">Terran alternative to commonwealth CIWS turret, though, due its high-tech nature it is more powerful, even if it has a bit slower peojectile. Designed for point defense and anti- fighter duty.</t>
-
-<t id="15141">TER M Light Meson Turret</t>
-<t id="15142">TER Light Meson Turret</t>
-<t id="15143">Light Meson Turret</t>
-<t id="15144">In contrast to beam weapons of commonwealth factions, that mostly serve as point defene weapons, Light Meson turrets are short-ranged high damage dealers, capable to melt even through the thikiest of armor. Though it has the same weakness as other meson weapon, its efficiency drops on maximum range and is easily dissipated by shields. </t>
-
-<t id="15151">Mjolnir</t>
-<t id="15152">Mjolnir</t>
-<t id="15153">Mjolnir</t>
-<t id="15154">Main beam weapon of the Asgard battleship.</t> 
-
-<t id="15161">\033#95e03b29#LM\033X Accelerated Graviton Array</t>
-<t id="15162">Accelerated Graviton Array</t>
-<t id="15163">Accelerated Graviton Array</t>
-<t id="15164">Simply taking medium Graviton Cannon and increasing its projcetile speed through the use if few in-line accelerators proven to increase weapon potention quite substantialy. Due to increased power use however it can now be equipped only by capital ships.</t>
-
-<t id="15171">TER L Rotory Pulse Turret</t>
-<t id="15172">TER Rotory Pulse Turret</t>
-<t id="15173">Rotory Pulse Turret</t>
-<t id="15174">Due to low efficiency of Starburst cannon versus corvettes and high cost of alternative weapons like HEMPC, Terran Protectorate scientists desing new weapon based on rapid-fire technology combining it with pulse cannon. The result is an all-purpose weapon that can deal with most S and M-sized targets.</t>
-
-<!-- Chiba carrier -->
-<t id="19111">After recent Xenon incursions Terran Protectorate command saw the need in fast mobile light carrier, as the need was quite urgent it was decided to re-use civilian Hokkaido chassis, while this allowed for new light carrier to be deployed in record time, it suffered from lack of survivability and firepower due to limitations of its chassis. </t>
-
 
 
 <!--missiles-->
@@ -796,333 +796,158 @@
 <t id="1300">スターバーストミサイル HG LOCK</t>
 <t id="1301">スターバーストミサイル HG LOCK</t>
 <t id="1302">特性: 重量級 | 誘導型 | 特定目標 \nAIの射程距離: 13 km \n\nこのミサイルはスプリットの設計指針に沿っており、最大級の威力ではないが、その正確さは一部の小さなターゲットであっても追撃の手を緩めない最速の重量級誘導ミサイルである。</t>
-<t id="1303">迎撃ミサイル LG</t>
-<t id="1304">迎撃ミサイル LG</t>
+<t id="1303">迎撃ミサイル LG EMP</t>
+<t id="1304">迎撃ミサイル LG EMP</t>
 <t id="1305">特性: 軽量級 | 誘導型 | 電磁波放電 \nAIの射程距離: 15 km \n\nディスラプターミサイルの軽量化と高速化を施したスプリット改良型で、そのミサイルのEMP効果はそれほど大きくはないが、より速く、より多くの爆薬物が詰め込まれている。 </t>
 
-<t id="1306">Serpent Nest CR SWARM</t>
-<t id="1307">Serpent Nest CR SWARM</t>
+<t id="1306">サーペントネスト CR SWARM</t>
+<t id="1307">サーペントネスト CR SWARM</t>
 <t id="1308">Properties: Cruise missile | Guided | Swarm missile \nAI Launch Range: 18 km \n\nDeveloped specifically for use with Viper's multi-tube launchers, this light cruise missile can deal with most light and medium targets and still be effective versus larger ships. </t>
-<t id="1309">Poltergeist Missile MG SWARM SMART</t>
-<t id="1310">Poltergeist Missile MG SWARM SMART</t>
+<t id="1309">ポルターガイストミサイル MG SWARM SMART</t>
+<t id="1310">ポルターガイストミサイル MG SWARM SMART</t>
 <t id="1311">Properties: Medium | Guided | Swarm missile | Target-seeking \nAI Launch Range: 15 km \n\nPoltergeist, a well-rounded missile used by Terran Protectorate military, fires a pair of smart missiles that acquire targets automatically.</t>
 
 <!-- Licenses -->
 <t id="99001">アルゴン 旗艦ライセンス</t>
 
 <!-- Internal shields -->
-<!-- <t id="13001">IG S - ノヴァ ヴァンガード 内蔵ジェネレータ</t>
-<t id="13002">IG S - ノヴァ センチネル 内蔵ジェネレータ</t>
-<t id="13003">IG S - エリート ヴァンガード 内蔵ジェネレータ</t>
-<t id="13004">IG S - エリート センチネル 内蔵ジェネレータ</t>
-<t id="13005">IG S - パルサー 内蔵ジェネレータ</t>
-<t id="13006">IG S - クエーサー 内蔵ジェネレータ</t>
-<t id="13007">IG S - エクリプス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13008">IG S - ディスカバラー ヴァンガード 内蔵ジェネレータ</t>
-<t id="13009">IG S - ディスカバラー センチネル 内蔵ジェネレータ</t>
-<t id="13010">IG S - クーリエ ヴァンガード 内蔵ジェネレータ</t>
-<t id="13011">IG S - クーリエ センチネル 内蔵ジェネレータ</t>
-<t id="13012">IG S - カリスト ヴァンガード 内蔵ジェネレータ</t>
-<t id="13013">IG S - カリスト センチネル 内蔵ジェネレータ</t>
-<t id="13014">IG S - カリスト （鉱物） 内蔵ジェネレータ</t>
-<t id="13015">IG S - ノダン ヴァンガード 内蔵ジェネレータ</t>
-<t id="13016">IG S - ノダン センチネル 内蔵ジェネレータ</t>
-<t id="13017">IG S - ペルセウス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13018">IG S - ペルセウス センチネル 内蔵ジェネレータ</t>
-<t id="13019">IG S - テセウス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13020">IG S - テセウス センチネル 内蔵ジェネレータ</t>
-<t id="13021">IG S - ペガサス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13022">IG S - ペガサス センチネル 内蔵ジェネレータ</t>
-<t id="13023">IG S - テーシス （鉱物） 内蔵ジェネレータ</t>
-<t id="13024">IG S - テーシス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13025">IG S - テーシス センチネル 内蔵ジェネレータ</t>
-<t id="13026">IG S - ファルコン ヴァンガード 内蔵ジェネレータ</t>
-<t id="13027">IG S - ファルコン センチネル 内蔵ジェネレータ</t>
-<t id="13028">IG S - バザード ヴァンガード 内蔵ジェネレータ</t>
-<t id="13029">IG S - バザード センチネル 内蔵ジェネレータ</t>
-<t id="13030">IG S - ケストレル ヴァンガード 内蔵ジェネレータ</t>
-<t id="13031">IG S - ケストレル センチネル 内蔵ジェネレータ</t>
-<t id="13032">IG S - ギレモット ヴァンガード 内蔵ジェネレータ</t>
-<t id="13033">IG S - ギレモット センチネル 内蔵ジェネレータ</t>
-<t id="13034">IG S - マグパイ （鉱物） 内蔵ジェネレータ</t>
-<t id="13035">IG S - マグパイ ヴァンガード 内蔵ジェネレータ</t>
-<t id="13036">IG S - マグパイ センチネル 内蔵ジェネレータ</t>
-<t id="13037">IG S - N 内蔵ジェネレータ</t>
-<t id="13038">IG S - M 内蔵ジェネレータ</t>
-<t id="13039">IG M - ミノタウロス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13040">IG M - ミノタウロス センチネル 内蔵ジェネレータ</t>
-<t id="13041">IG M - ミノタウロス レイダー 内蔵ジェネレータ</t>
-<t id="13042">IG M - ケルベロス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13043">IG M - ケルベロス センチネル 内蔵ジェネレータ</t>
-<t id="13044">IG M - サンダー ヴァンガード 内蔵ジェネレータ</t>
-<t id="13045">IG M - サンダー センチネル 内蔵ジェネレータ</t>
-<t id="13046">IG M - ドリル ヴァンガード 内蔵ジェネレータ</t>
-<t id="13047">IG M - ドリル センチネル 内蔵ジェネレータ</t>
-<t id="13048">IG M - マーキュリー ヴァンガード 内蔵ジェネレータ</t>
-<t id="13049">IG M - マーキュリー センチネル 内蔵ジェネレータ</t>
-<t id="13050">IG M - アイデス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13051">IG M - アイデス センチネル 内蔵ジェネレータ</t>
-<t id="13052">IG M - ネメシス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13053">IG M - ネメシス センチネル 内蔵ジェネレータ</t>
-<t id="13054">IG M - ゴーゴン ヴァンガード 内蔵ジェネレータ</t>
-<t id="13055">IG M - ゴーゴン センチネル 内蔵ジェネレータ</t>
-<t id="13056">IG M - プルートス （ガス） ヴァンガード 内蔵ジェネレータ</t>
-<t id="13057">IG M - プルートス （ガス） センチネル 内蔵ジェネレータ</t>
-<t id="13058">IG M - プルートス （鉱物） ヴァンガード 内蔵ジェネレータ</t>
-<t id="13059">IG M - プルートス （鉱物） センチネル 内蔵ジェネレータ</t>
-<t id="13060">IG M - デメテル ヴァンガード 内蔵ジェネレータ</t>
-<t id="13061">IG M - デメテル センチネル 内蔵ジェネレータ</t>
-<t id="13062">IG M - ヘルメス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13063">IG M - ヘルメス センチネル 内蔵ジェネレータ</t>
-<t id="13064">IG M - ペレグリン ヴァンガード 内蔵ジェネレータ</t>
-<t id="13065">IG M - ペレグリン センチネル 内蔵ジェネレータ</t>
-<t id="13066">IG M - オスプレイ ヴァンガード 内蔵ジェネレータ</t>
-<t id="13067">IG M - オスプレイ センチネル 内蔵ジェネレータ</t>
-<t id="13068">IG M - マノリナ （ガス） ヴァンガード 内蔵ジェネレータ</t>
-<t id="13069">IG M - マノリナ （ガス） センチネル 内蔵ジェネレータ</t>
-<t id="13070">IG M - マノリナ （鉱物） ヴァンガード 内蔵ジェネレータ</t>
-<t id="13071">IG M - マノリナ （鉱物） センチネル 内蔵ジェネレータ</t>
-<t id="13072">IG M - ヴァルチャー ヴァンガード 内蔵ジェネレータ</t>
-<t id="13073">IG M - ヴァルチャー センチネル 内蔵ジェネレータ</t>
-<t id="13074">IG M - ターン ヴァンガード 内蔵ジェネレータ</t>
-<t id="13075">IG M - ターン センチネル 内蔵ジェネレータ</t>
-<t id="13076">IG M - コーモラント 内蔵ジェネレータ</t>
-<t id="13077">IG M - P 内蔵ジェネレータ</t>
-<t id="13078">IG M - S 内蔵ジェネレータ</t>
-<t id="13079">IG L - ケンタウロス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13080">IG L - ケンタウロス センチネル 内蔵ジェネレータ</t>
-<t id="13081">IG L - ベヒーモス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13082">IG L - ベヒーモス センチネル 内蔵ジェネレータ</t>
-<t id="13083">IG L - マグネター （ガス） ヴァンガード 内蔵ジェネレータ</t>
-<t id="13084">IG L - マグネター （ガス） センチネル 内蔵ジェネレータ</t>
-<t id="13085">IG L - マグネター （鉱物） ヴァンガード 内蔵ジェネレータ</t>
-<t id="13086">IG L - マグネター （鉱物） センチネル 内蔵ジェネレータ</t>
-<t id="13087">IG L - ヴェレス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13088">IG L - ヴェレス センチネル 内蔵ジェネレータ</t>
-<t id="13089">IG L - モコシ ヴァンガード 内蔵ジェネレータ</t>
-<t id="13090">IG L - モコシ センチネル 内蔵ジェネレータ</t>
-<t id="13091">IG L - インカーカチュラ ヴァンガード 内蔵ジェネレータ</t>
-<t id="13092">IG L - インカーカチュラ センチネル 内蔵ジェネレータ</t>
-<t id="13093">IG L - シュウヤク ヴァンガード 内蔵ジェネレータ</t>
-<t id="13094">IG L - シュウヤク センチネル 内蔵ジェネレータ</t>
-<t id="13095">IG L - ソンラ ヴァンガード 内蔵ジェネレータ</t>
-<t id="13096">IG L - ソンラ センチネル 内蔵ジェネレータ</t>
-<t id="13097">IG L - オデッセウス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13098">IG L - オデッセウス センチネル 内蔵ジェネレータ</t>
-<t id="13099">IG L - クトニオス （ガス） ヴァンガード 内蔵ジェネレータ</t>
-<t id="13100">IG L - クトニオス （ガス） センチネル 内蔵ジェネレータ</t>
-<t id="13101">IG L - クトニオス （鉱物） ヴァンガード 内蔵ジェネレータ</t>
-<t id="13102">IG L - クトニオス （鉱物） センチネル 内蔵ジェネレータ</t>
-<t id="13103">IG L - ヘリオス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13104">IG L - ヘリオス センチネル 内蔵ジェネレータ</t>
-<t id="13105">IG L - セレネ ヴァンガード 内蔵ジェネレータ</t>
-<t id="13106">IG L - セレネ センチネル 内蔵ジェネレータ</t>
-<t id="13107">IG L - フェニックス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13108">IG L - フェニックス センチネル 内蔵ジェネレータ</t>
-<t id="13109">IG L - クレイン （ガス） ヴァンガード 内蔵ジェネレータ</t>
-<t id="13110">IG L - クレイン （ガス） センチネル 内蔵ジェネレータ</t>
-<t id="13111">IG L - クレイン ヴァンガード 内蔵ジェネレータ</t>
-<t id="13112">IG L - クレイン センチネル 内蔵ジェネレータ</t>
-<t id="13113">IG L - ペリカン ヴァンガード 内蔵ジェネレータ</t>
-<t id="13114">IG L - ペリカン センチネル 内蔵ジェネレータ</t>
-<t id="13115">IG L - ヘロン ヴァンガード 内蔵ジェネレータ</t>
-<t id="13116">IG L - ヘロン センチネル 内蔵ジェネレータ</t>
-<t id="13117">IG XL - マンモス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13118">IG XL - マンモス センチネル 内蔵ジェネレータ</t>
-<t id="13119">IG XL - コロッサス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13120">IG XL - コロッサス センチネル 内蔵ジェネレータ</t>
-<t id="13121">IG XL - ヘラクレス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13122">IG XL - ヘラクレス センチネル 内蔵ジェネレータ</t>
-<t id="13123">IG XL - ゼウス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13124">IG XL - ゼウス センチネル 内蔵ジェネレータ</t>
-<t id="13125">IG XL - アルバトロス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13126">IG XL - アルバトロス センチネル 内蔵ジェネレータ</t>
-<t id="13127">IG XL - コンドル ヴァンガード 内蔵ジェネレータ</t>
-<t id="13128">IG XL - コンドル センチネル 内蔵ジェネレータ</t>
-<t id="13129">IG XL - I 内蔵ジェネレータ</t>
-<t id="13130">IG XL - K 内蔵ジェネレータ</t>
-<t id="13131">IG XL - サイクロプス 内蔵ジェネレータ</t>
-<t id="13132">IG XL - ディモス 内蔵ジェネレータ</t>
-<t id="13133">IG XL - フルマー 内蔵ジェネレータ</t>
-<t id="13134">IG XL - ノマド ヴァンガード 内蔵ジェネレータ</t>
-<t id="13135">IG XL - ノマド センチネル 内蔵ジェネレータ</t>
-<t id="13136">IG XL - アトラス ヴァンガード 内蔵ジェネレータ</t>
-<t id="13137">IG XL - アトラス センチネル 内蔵ジェネレータ</t>
-<t id="13138">IG XL - ストーク ヴァンガード 内蔵ジェネレータ</t>
-<t id="13139">IG XL - ストーク センチネル 内蔵ジェネレータ</t>
-<t id="13140">IG S - 防衛ドローン 内蔵ジェネレータ</t>
-<t id="13141">IG L - インカーカチュラ レイダー 内蔵ジェネレータ</t>
-<t id="13142">IG XL - タイタン 内蔵ジェネレータ</t>
-<t id="13143">IG S - T 内蔵ジェネレータ</t>
-<t id="13144">IG S - アレス 内蔵ジェネレータ</t>
-<t id="13145">IG S - マンバ 内蔵ジェネレータ</t>
-<t id="13146">IG S - アスプ 内蔵ジェネレータ</t>
-<t id="13147">IG S - アスプ レイダー 内蔵ジェネレータ</t>
-<t id="13148">IG S - キメラ 内蔵ジェネレータ</t>
-<t id="13149">IG S - バラウール 内蔵ジェネレータ</t>
-<t id="13150">IG S - トゥアタラ （鉱物） 内蔵ジェネレータ</t>
-<t id="13151">IG S - ジャガー 内蔵ジェネレータ</t>
-<t id="13152">IG S - トゥアタラ 内蔵ジェネレータ</t>
-<t id="13153">IG M - ヴァイパー 内蔵ジェネレータ</t>
-<t id="13154">IG M - ドラゴン 内蔵ジェネレータ</t>
-<t id="13155">IG M - ドラゴン レイダー 内蔵ジェネレータ</t>
-<t id="13156">IG M - コブラ 内蔵ジェネレータ</t>
-<t id="13157">IG M - アリゲーター （ガス） 内蔵ジェネレータ</t>
-<t id="13158">IG M - アリゲーター （鉱物） 内蔵ジェネレータ</t>
-<t id="13159">IG M - ボア 内蔵ジェネレータ</t>
-<t id="13160">IG L - ラトルスネイク 内蔵ジェネレータ</t>
-<t id="13161">IG L - ワイバーン （ガス） 内蔵ジェネレータ</t>
-<t id="13162">IG L - ワイバーン （鉱物） 内蔵ジェネレータ</t>
-<t id="13163">IG L - バッファロー 内蔵ジェネレータ</t>
-<t id="13164">IG XL - エレファント 内蔵ジェネレータ</t>
-<t id="13165">IG XL - ラプター 内蔵ジェネレータ</t>
-<t id="13166">IG XL - モニター 内蔵ジェネレータ</t>
-<t id="13167">IG XL - ガリアル 内蔵ジェネレータ</t>
-<t id="13168">IG L - シュライク 内蔵ジェネレータ</t>
-<t id="13169">IG L - パンサー 内蔵ジェネレータ</t>
-<t id="13170">IG L - Hound Internal Generator</t>
-<t id="13171">IG L - Cyclops Internal Generator</t>
-<t id="13172">IG L - Hyperion Internal Generator</t>
-<t id="13173">IG L - ヴァイパー 内蔵ジェネレータ</t>
- -->
-<!-- Internal shields -->
-<t id="13001">IG S - Nova  Internal Generator</t>
-<t id="13002">IG S - Elite  Internal Generator</t>
-<t id="13003">IG S - Pulsar Internal Generator</t>
-<t id="13004">IG S - Quasar Internal Generator</t>
-<t id="13005">IG S - Eclipse  Internal Generator</t>
-<t id="13006">IG S - Discoverer  Internal Generator</t>
-<t id="13007">IG S - Courier  Internal Generator</t>
-<t id="13008">IG S - Callisto  Internal Generator</t>
-<t id="13009">IG S - Callisto Miner Internal Generator</t>
-<t id="13010">IG S - Nodus  Internal Generator</t>
-<t id="13011">IG S - Perseus  Internal Generator</t>
-<t id="13012">IG S - Theseus  Internal Generator</t>
-<t id="13013">IG S - Pegasus  Internal Generator</t>
-<t id="13014">IG S - Tethys Miner Internal Generator</t>
-<t id="13015">IG S - Tethys  Internal Generator</t>
-<t id="13016">IG S - Falcon  Internal Generator</t>
-<t id="13017">IG S - Buzzard  Internal Generator</t>
-<t id="13018">IG S - Kestrel  Internal Generator</t>
-<t id="13019">IG S - Guillemont  Internal Generator</t>
-<t id="13020">IG S - Magpie Miner Internal Generator</t>
-<t id="13021">IG S - Magpie  Internal Generator</t>
-<t id="13022">IG S - N Internal Generator</t>
-<t id="13023">IG S - M Internal Generator</t>
-<t id="13024">IG M - Minotaur  Internal Generator</t>
-<t id="13025">IG M - Minotaur Raider Internal Generator</t>
-<t id="13026">IG M - Cerberus  Internal Generator</t>
-<t id="13027">IG M - Sunder  Internal Generator</t>
-<t id="13028">IG M - Drill  Internal Generator</t>
-<t id="13029">IG M - Mercury  Internal Generator</t>
-<t id="13030">IG M - Ides  Internal Generator</t>
-<t id="13031">IG M - Nemesis  Internal Generator</t>
-<t id="13032">IG M - Gorgona  Internal Generator</t>
-<t id="13033">IG M - Plutus Gas  Internal Generator</t>
-<t id="13034">IG M - Plutus Miner  Internal Generator</t>
-<t id="13035">IG M - Demeter  Internal Generator</t>
-<t id="13036">IG M - Hermes  Internal Generator</t>
-<t id="13037">IG M - Peregrine  Internal Generator</t>
-<t id="13038">IG M - Osprey  Internal Generator</t>
-<t id="13039">IG M - Manorina Gas  Internal Generator</t>
-<t id="13040">IG M - Manorina Miner  Internal Generator</t>
-<t id="13041">IG M - Vulture  Internal Generator</t>
-<t id="13042">IG M - Tern  Internal Generator</t>
-<t id="13043">IG M - Cormorant Internal Generator</t>
-<t id="13044">IG M - P Internal Generator</t>
-<t id="13045">IG M - S Internal Generator</t>
-<t id="13046">IG L - Centaur  Internal Generator</t>
-<t id="13047">IG L - Behemoth  Internal Generator</t>
-<t id="13048">IG L - Magnetar Gas  Internal Generator</t>
-<t id="13049">IG L - Magnetar Miner  Internal Generator</t>
-<t id="13050">IG L - Veles  Internal Generator</t>
-<t id="13051">IG L - Mokosi  Internal Generator</t>
-<t id="13052">IG L - Incarcatua  Internal Generator</t>
-<t id="13053">IG L - Shuyaku  Internal Generator</t>
-<t id="13054">IG L - Sonra  Internal Generator</t>
-<t id="13055">IG L - Oddysyes  Internal Generator</t>
-<t id="13056">IG L - Chthonios Gas  Internal Generator</t>
-<t id="13057">IG L - Chthonios Miner  Internal Generator</t>
-<t id="13058">IG L - Helios  Internal Generator</t>
-<t id="13059">IG L - Selen  Internal Generator</t>
-<t id="13060">IG L - Phoenix  Internal Generator</t>
-<t id="13061">IG L - Crane Gas  Internal Generator</t>
-<t id="13062">IG L - Crane  Internal Generator</t>
-<t id="13063">IG L - Pelican  Internal Generator</t>
-<t id="13064">IG L - Heron  Internal Generator</t>
-<t id="13065">IG XL - Builder  Internal Generator</t>
-<t id="13066">IG XL - Colossus  Internal Generator</t>
-<t id="13067">IG XL - Hercules  Internal Generator</t>
-<t id="13068">IG XL - Zeus  Internal Generator</t>
-<t id="13069">IG XL - Albatros  Internal Generator</t>
-<t id="13070">IG XL - Condor  Internal Generator</t>
-<t id="13071">IG XL - I Internal Generator</t>
-<t id="13072">IG XL - K Internal Generator</t>
-<t id="13073">IG XL - Corona Internal Generator</t>
-<t id="13074">IG XL - Deimos Internal Generator</t>
-<t id="13075">IG XL - Fulmar Internal Generator</t>
-<t id="13076">IG XL - Nomad Vanguard Internal Generator</t>
-<t id="13077">IG XL - Atlas Vanguard Internal Generator</t>
-<t id="13078">IG XL - Stork Vanguard Internal Generator</t>
-<t id="13079">IG S - Defense Drone Internal Generator</t>
-<t id="13080">IG L - Incarcatura Raider Internal Generator</t>
-<t id="13081">IG XL - Titan Internal Generator</t>
-<t id="13082">IG S - T Internal Generator</t>
-<t id="13083">IG S - Ares Internal Generator</t>
-<t id="13084">IG S - Mamba Internal Generator</t>
-<t id="13085">IG S - Asp Internal Generator</t>
-<t id="13086">IG S - Asp raider Internal Generator</t>
-<t id="13087">IG S - Chimera Internal Generator</t>
-<t id="13088">IG S - Balaur Internal Generator</t>
-<t id="13089">IG S - Tuatara Mineral Internal Generator</t>
-<t id="13090">IG S - Jaguar Internal Generator</t>
-<t id="13091">IG S - Tuatara Internal Generator</t>
-<t id="13092">IG M - Dragon Internal Generator</t>
-<t id="13093">IG M - Dragon Raider Internal Generator</t>
-<t id="13094">IG M - Cobra Internal Generator</t>
-<t id="13095">IG M - Alligator Gas Internal Generator</t>
-<t id="13096">IG M - Alligator Miner Internal Generator</t>
-<t id="13097">IG M - Boa Internal Generator</t>
-<t id="13098">IG L - Rattlesnake Internal Generator</t>
-<t id="13099">IG L - Wyvern Gas Internal Generator</t>
-<t id="13100">IG L - Wyvern Mineral Internal Generator</t>
-<t id="13101">IG L - Buffalo Internal Generator</t>
-<t id="13102">IG XL - Elephant Internal Generator</t>
-<t id="13103">IG XL - Raptor Internal Generator</t>
-<t id="13104">IG XL - Monitor Internal Generator</t>
-<t id="13105">IG XL - Gharial Internal Generator</t>
-<t id="13106">IG L - Shrike Internal Generator</t>
-<t id="13107">IG L - Panther Internal Generator</t>
-<t id="13108">IG L - Hound Internal Generator</t>
-<t id="13109">IG L - Cyclops Internal Generator</t>
-<t id="13110">IG L - Hyperion Internal Generator</t>
-<t id="13111">IG L - Viper Internal Generator</t>
-<t id="13112">IG S - Kukri Internal Generator</t>
-<t id="13113">IG S - Kalis Internal Generator</t>
-<t id="13114">IG S - Takoba Internal Generator</t>
-<t id="13115">IG S - Gladius Internal Generator</t>
-<t id="13116">IG S - Kopis Internal Generator</t>
-<t id="13117">IG S - Rapier Internal Generator</t>
-<t id="13118">IG S - Nimcha Internal Generator</t>
-<t id="13119">IG S - Frog Internal Generator</t>
-<t id="13120">IG S - Moreya Internal Generator</t>
-<t id="13121">IG M - Katana Internal Generator</t>
-<t id="13122">IG M - Falx Internal Generator</t>
-<t id="13123">IG M - Jian Internal Generator</t>
-<t id="13124">IG M - Bolo Gas Internal Generator</t>
-<t id="13125">IG M - Bolo Miner Internal Generator</t>
-<t id="13126">IG M - Baldric Internal Generator</t>
-<t id="13127">IG M - Kuraokami Internal Generator</t>
-<t id="13128">IG L - Syn Internal Generator</t>
-<t id="13129">IG L - Osaka Internal Generator</t>
-<t id="13130">IG L - Hokkaido Gas Internal Generator</t>
-<t id="13131">IG L - Hokkaido Miner Internal Generator</t>
-<t id="13132">IG L - Okinawa Internal Generator</t>
-<t id="13133">IG XL - Asgard Internal Generator</t>
-<t id="13134">IG XL - Kyushu Internal Generator</t>
-<t id="13135">IG XL - Tokyo Internal Generator</t>
-<t id="13136">IG XL - Honshu Internal Generator</t>
-<t id="13137">IG L - Chiba Internal Generator</t>
+<t id="13001">IG S - ノヴァ  内蔵ジェネレータ</t>
+<t id="13002">IG S - エリート  内蔵ジェネレータ</t>
+<t id="13003">IG S - パルサー 内蔵ジェネレータ</t>
+<t id="13004">IG S - クェーサー 内蔵ジェネレータ</t>
+<t id="13005">IG S - エクリプス  内蔵ジェネレータ</t>
+<t id="13006">IG S - ディスカバラー  内蔵ジェネレータ</t>
+<t id="13007">IG S - クーリエ  内蔵ジェネレータ</t>
+<t id="13008">IG S - カリスト  内蔵ジェネレータ</t>
+<t id="13009">IG S - カリスト（採掘） 内蔵ジェネレータ</t>
+<t id="13010">IG S - ノダン  内蔵ジェネレータ</t>
+<t id="13011">IG S - ペルセウス  内蔵ジェネレータ</t>
+<t id="13012">IG S - テセウス  内蔵ジェネレータ</t>
+<t id="13013">IG S - ペガサス  内蔵ジェネレータ</t>
+<t id="13014">IG S - テーシス（採掘） 内蔵ジェネレータ</t>
+<t id="13015">IG S - テーシス  内蔵ジェネレータ</t>
+<t id="13016">IG S - ファルコン  内蔵ジェネレータ</t>
+<t id="13017">IG S - バザード  内蔵ジェネレータ</t>
+<t id="13018">IG S - ケストレル  内蔵ジェネレータ</t>
+<t id="13019">IG S - ギレモット  内蔵ジェネレータ</t>
+<t id="13020">IG S - マグパイ（採掘） 内蔵ジェネレータ</t>
+<t id="13021">IG S - マグパイ  内蔵ジェネレータ</t>
+<t id="13022">IG S - N 内蔵ジェネレータ</t>
+<t id="13023">IG S - M 内蔵ジェネレータ</t>
+<t id="13024">IG M - ミノタウロス  内蔵ジェネレータ</t>
+<t id="13025">IG M - ミノタウロス レイダー 内蔵ジェネレータ</t>
+<t id="13026">IG M - ケルベロス  内蔵ジェネレータ</t>
+<t id="13027">IG M - サンダー  内蔵ジェネレータ</t>
+<t id="13028">IG M - ドリル  内蔵ジェネレータ</t>
+<t id="13029">IG M - マーキュリー  内蔵ジェネレータ</t>
+<t id="13030">IG M - アイデス  内蔵ジェネレータ</t>
+<t id="13031">IG M - ネメシス  内蔵ジェネレータ</t>
+<t id="13032">IG M - ゴーゴン  内蔵ジェネレータ</t>
+<t id="13033">IG M - プルートス（ガス）  内蔵ジェネレータ</t>
+<t id="13034">IG M - プルートス（鉱物）  内蔵ジェネレータ</t>
+<t id="13035">IG M - デメテル  内蔵ジェネレータ</t>
+<t id="13036">IG M - ヘルメス  内蔵ジェネレータ</t>
+<t id="13037">IG M - ペレグリン  内蔵ジェネレータ</t>
+<t id="13038">IG M - オスプレイ  内蔵ジェネレータ</t>
+<t id="13039">IG M - マノリナ（ガス）  内蔵ジェネレータ</t>
+<t id="13040">IG M - マノリナ（鉱物）  内蔵ジェネレータ</t>
+<t id="13041">IG M - ヴァルチャー  内蔵ジェネレータ</t>
+<t id="13042">IG M - ターン  内蔵ジェネレータ</t>
+<t id="13043">IG M - コーモラント 内蔵ジェネレータ</t>
+<t id="13044">IG M - P 内蔵ジェネレータ</t>
+<t id="13045">IG M - S 内蔵ジェネレータ</t>
+<t id="13046">IG L - ケンタウロス  内蔵ジェネレータ</t>
+<t id="13047">IG L - ベヒーモス  内蔵ジェネレータ</t>
+<t id="13048">IG L - マグネター（ガス）  内蔵ジェネレータ</t>
+<t id="13049">IG L - マグネター（鉱物） 内蔵ジェネレータ</t>
+<t id="13050">IG L - ヴェレス  内蔵ジェネレータ</t>
+<t id="13051">IG L - モコシ  内蔵ジェネレータ</t>
+<t id="13052">IG L - インカーカチュラ  内蔵ジェネレータ</t>
+<t id="13053">IG L - シュウヤク  内蔵ジェネレータ</t>
+<t id="13054">IG L - ソンラ  内蔵ジェネレータ</t>
+<t id="13055">IG L - オデュッセウス  内蔵ジェネレータ</t>
+<t id="13056">IG L - クトニオス Gas  内蔵ジェネレータ</t>
+<t id="13057">IG L - クトニオス Miner  内蔵ジェネレータ</t>
+<t id="13058">IG L - ヘリオス  内蔵ジェネレータ</t>
+<t id="13059">IG L - セレネ  内蔵ジェネレータ</t>
+<t id="13060">IG L - フェニックス  内蔵ジェネレータ</t>
+<t id="13061">IG L - クレイン（ガス）  内蔵ジェネレータ</t>
+<t id="13062">IG L - クレイン（鉱物） 内蔵ジェネレータ</t>
+<t id="13063">IG L - ペリカン  内蔵ジェネレータ</t>
+<t id="13064">IG L - ヘロン  内蔵ジェネレータ</t>
+<t id="13065">IG XL - ビルダー  内蔵ジェネレータ</t>
+<t id="13066">IG XL - コロッサス  内蔵ジェネレータ</t>
+<t id="13067">IG XL - ヘラクレス  内蔵ジェネレータ</t>
+<t id="13068">IG XL - ゼウス  内蔵ジェネレータ</t>
+<t id="13069">IG XL - アルバトロス  内蔵ジェネレータ</t>
+<t id="13070">IG XL - コンドル  内蔵ジェネレータ</t>
+<t id="13071">IG XL - I 内蔵ジェネレータ</t>
+<t id="13072">IG XL - K 内蔵ジェネレータ</t>
+<t id="13073">IG XL - コロナ 内蔵ジェネレータ</t>
+<t id="13074">IG XL - デイモス 内蔵ジェネレータ</t>
+<t id="13075">IG XL - フルマー 内蔵ジェネレータ</t>
+<t id="13076">IG XL - ノマド 内蔵ジェネレータ</t>
+<t id="13077">IG XL - アトラス 内蔵ジェネレータ</t>
+<t id="13078">IG XL - ストーク 内蔵ジェネレータ</t>
+<t id="13079">IG S - 防衛ドローン 内蔵ジェネレータ</t>
+<t id="13080">IG L - インカーカチュラ レイダー 内蔵ジェネレータ</t>
+<t id="13081">IG XL - タイタン 内蔵ジェネレータ</t>
+<t id="13082">IG S - T 内蔵ジェネレータ</t>
+<t id="13083">IG S - アレス 内蔵ジェネレータ</t>
+<t id="13084">IG S - マンバ 内蔵ジェネレータ</t>
+<t id="13085">IG S - アスプ 内蔵ジェネレータ</t>
+<t id="13086">IG S - アスプ レイダー 内蔵ジェネレータ</t>
+<t id="13087">IG S - キメラ 内蔵ジェネレータ</t>
+<t id="13088">IG S - バラウール 内蔵ジェネレータ</t>
+<t id="13089">IG S - トゥアタラ （鉱物） 内蔵ジェネレータ</t>
+<t id="13090">IG S - ジャガー 内蔵ジェネレータ</t>
+<t id="13091">IG S - トゥアタラ 内蔵ジェネレータ</t>
+<t id="13092">IG M - ドラゴン 内蔵ジェネレータ</t>
+<t id="13093">IG M - ドラゴン レイダー 内蔵ジェネレータ</t>
+<t id="13094">IG M - コブラ 内蔵ジェネレータ</t>
+<t id="13095">IG M - アリゲーター（ガス） 内蔵ジェネレータ</t>
+<t id="13096">IG M - アリゲーター（鉱物） 内蔵ジェネレータ</t>
+<t id="13097">IG M - ボア 内蔵ジェネレータ</t>
+<t id="13098">IG L - ラトルスネーク 内蔵ジェネレータ</t>
+<t id="13099">IG L - ワイバーン（ガス） 内蔵ジェネレータ</t>
+<t id="13100">IG L - ワイバーン（鉱物） 内蔵ジェネレータ</t>
+<t id="13101">IG L - バッファロー 内蔵ジェネレータ</t>
+<t id="13102">IG XL - エレファント 内蔵ジェネレータ</t>
+<t id="13103">IG XL - ラプター 内蔵ジェネレータ</t>
+<t id="13104">IG XL - モニター 内蔵ジェネレータ</t>
+<t id="13105">IG XL - ガリアル 内蔵ジェネレータ</t>
+<t id="13106">IG L - シュライク 内蔵ジェネレータ</t>
+<t id="13107">IG L - パンサー 内蔵ジェネレータ</t>
+<t id="13108">IG L - ハウンド 内蔵ジェネレータ</t>
+<t id="13109">IG L - サイクロプス 内蔵ジェネレータ</t>
+<t id="13110">IG L - ハイペリオン 内蔵ジェネレータ</t>
+<t id="13111">IG L - バイパー 内蔵ジェネレータ</t>
+<t id="13112">IG S - ククリ 内蔵ジェネレータ</t>
+<t id="13113">IG S - カリス 内蔵ジェネレータ</t>
+<t id="13114">IG S - タコーバ 内蔵ジェネレータ</t>
+<t id="13115">IG S - グラディウス 内蔵ジェネレータ</t>
+<t id="13116">IG S - コピス 内蔵ジェネレータ</t>
+<t id="13117">IG S - レイピア 内蔵ジェネレータ</t>
+<t id="13118">IG S - ニムチャ 内蔵ジェネレータ</t>
+<t id="13119">IG S - フロッグ 内蔵ジェネレータ</t>
+<t id="13120">IG S - モレヤ 内蔵ジェネレータ</t>
+<t id="13121">IG M - カタナ 内蔵ジェネレータ</t>
+<t id="13122">IG M - ファルクス 内蔵ジェネレータ</t>
+<t id="13123">IG M - ジアン 内蔵ジェネレータ</t>
+<t id="13124">IG M - ボロ（ガス） 内蔵ジェネレータ</t>
+<t id="13125">IG M - ボロ（鉱物） 内蔵ジェネレータ</t>
+<t id="13126">IG M - ボールドリック 内蔵ジェネレータ</t>
+<t id="13127">IG M - クラオカミ 内蔵ジェネレータ</t>
+<t id="13128">IG L - シン 内蔵ジェネレータ</t>
+<t id="13129">IG L - オオサカ 内蔵ジェネレータ</t>
+<t id="13130">IG L - ホッカイドー Gas 内蔵ジェネレータ</t>
+<t id="13131">IG L - ホッカイドー Miner 内蔵ジェネレータ</t>
+<t id="13132">IG L - オキナワ 内蔵ジェネレータ</t>
+<t id="13133">IG XL - アスガルド 内蔵ジェネレータ</t>
+<t id="13134">IG XL - キュウシュー 内蔵ジェネレータ</t>
+<t id="13135">IG XL - トウキョウ 内蔵ジェネレータ</t>
+<t id="13136">IG XL - ホンシュー 内蔵ジェネレータ</t>
+<t id="13137">IG L - チバ 内蔵ジェネレータ</t>
 
 </page>
 </language> 
